@@ -1,5 +1,5 @@
 const COLOR = {
-    baseColor: "#023436",
+    baseColor: "ff5ad9",
     baseColorDark: "#01191a",
     secondaryColor: "#F0F7F4",
     secondSecondaryColor: "#FAC748",

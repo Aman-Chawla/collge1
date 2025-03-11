@@ -1,7 +1,7 @@
 import { useState } from "react";
-import CustomInput from "../../components/CustomInput/CustomInput";
+import CustomInput from "..//..//components/customInput";
 import COLOR from "../../config/color";
-import "./styles.css";
+import "./style.css";
 import { FaUserAlt } from "react-icons/fa";
 import { FaKey } from "react-icons/fa";
 
@@ -10,10 +10,15 @@ function LoginPage() {
   // const [count, setCount] = useState(0);
   return (
     <div className="loginPageBaseContainer">
+
+
+
+
+      
       <div className="loginPageContentBaseContainer">
         <div className="loginPageContentTitleContainer">
-          <h1>Let's Connect</h1>
-          <h4>Login</h4>
+          <h1>Login Your Account</h1>
+          <h2>Login</h2>
         </div>
         <div className="loginPageContentInputContainer">
           <CustomInput
@@ -37,8 +42,10 @@ function LoginPage() {
             Increment
           </button> */}
         </div>
-        <div className="loginPageContentButtonContainer"></div>
-        <div className="loginPageContentRegisterContainer"></div>
+        <div className="loginPageContentButtonContainer"><button class="my-button">SIGN IN</button></div>
+        <div className="loginPageContentForgotPasswordContainer">Forgot Password</div>
+        
+      
       </div>
     </div>
   );

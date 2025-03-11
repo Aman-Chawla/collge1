@@ -1,7 +1,7 @@
 .customInputBaseContainer {
     padding: 10px;
-    border-radius: 10px;
-    border: 1px solid var(--borderColor);
+    border-radius: 50px;
+    border: 1px solid blue;
     display: flex;
     gap: 4px;
   }
