@@ -1,5 +1,6 @@
 import COLOR from "../../config/color";
-import "./style.css";
+import "./style.css
+";
 
 function HomePage() {
   return (
